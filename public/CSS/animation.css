@@ -1,16 +1,7 @@
-@keyframes glitch_body{
-    0%   { background-color: #000000; }
-    10%  { background-color: #0a0a0a; }
-    15%  { background-color: #000000; }
-    20%  { background-color: #1a0000; }
-    25%  { background-color: #000000; }
-    40%  { background-color: #001010; }
-    50%  { background-color: #000000; }
-    70%  { background-color: #111111; }
-    80%  { background-color: #000000; }
-    100% { background-color: #000000; }
+@keyframes glitch_body {
+  0%, 100% { background-color: #000; }
+  50% { background-color: #0a0a0a; }
 }
-
 @keyframes glitch_text{
     0%{top: 0px; left: 0px;}
     20%{top: -10px; left: -10px;}
@@ -29,27 +20,10 @@
     100%{top: 0px; left: 0px; color: rgb(12, 12, 5);}
 }
 
-@keyframes erro_glitch{
-    0%{top: 0px; left: 0px; color: rgb(151, 147, 147);}
-    20%{top: -10px; left: -10px; color: rgb(255, 0, 0);}
-    40%{top: 10px; left: 10px; color: rgb(0, 30, 255);}
-    60%{top: -10px; left: 10px; color: green;}
-    80%{top: 10px; left: -10px; color: yellow;}  
-    100%{top: 0px; left: 0px; color: rgb(12, 12, 5);}
-}
-
 @keyframes screen_glitch{
     0% { transform: translate(0, 0); background-color: rgb(64, 61, 61); }
-    25% { transform: translate(-5px, 10px); background-color: #1a0000; }
-    50% { transform: translate(6px, 0); background-color: rgb(64, 61, 61); }
+    25% { transform: translate(-2px, 2px); background-color: #1a0000; }
+    50% { transform: translate(3px, 0); background-color: rgb(64, 61, 61); }
     75% { transform: translate(-1px, 5px); background-color: #111111; }
     100% { transform: translate(0, 0); background-color:  rgb(64, 61, 61); }
-}
-
-@keyframes glitch_image{
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(-5px, 10px); }
-    50% { transform: translate(6px, 0); }
-    75% { transform: translate(-1px, 5px); }
-    100% { transform: translate(0, 0); }
 }

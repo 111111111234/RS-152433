@@ -5,7 +5,6 @@ body{
 .body_glitch{
     background-color: rgb(64, 61, 61);
     animation: screen_glitch 6s infinite;
-    background: linear-gradient(90deg, #023d01 50%, #000000 50%);
 }
 
 .glitch_body{
