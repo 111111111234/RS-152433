@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(64, 61, 61);
+}
+
+.body_glitch{
+    background-color: rgb(64, 61, 61);
+    animation: screen_glitch 6s infinite;
+    background: linear-gradient(90deg, #023d01 50%, #000000 50%);
+}
+
+.glitch_body{
+    animation: glitch_body 6s infinite;
+}
+
+.capital{
+    color: rgb(151, 147, 147);
+    font-size: clamp(35px, 7vw, 40px);
+    text-align: center;
+}
+
+.main{
+    color: rgb(151, 147, 147);
+    font-size: clamp(14px, 2.5vw, 16px);
+    text-align: left;
+}
+
+.main_glitch{
+    color: rgb(151, 147, 147);
+    font-size: clamp(14px, 2.5vw, 16px);
+    text-align: left;
+    animation: glitch_text 0.3s infinite;
+    position: relative;
+}
+
+.main_glitch3{
+    color: rgb(151, 147, 147);
+    font-size: clamp(14px, 2.5vw, 16px);
+    text-align: left;
+    animation: glitch_text2 0.3s infinite;
+    position: relative;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box_b{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box_b_audio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer{
+    color: rgb(151, 147, 147);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.li{
+    color: rgb(151, 147, 147);
+    font-size: 15px;
+    margin-right: 70px;
+    margin-bottom: 150px;
+}
+
+.link{
+    color: rgb(151, 147, 147);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+table{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-color: rgb(151, 147, 147);
+}
+
+.td{
+    text-decoration-color: rgb(151, 147, 147);
+}
+
+.broadcast{
+    margin-bottom: 40px;
+}
+
+audio{
+    color: rgb(151, 147, 147);
+    width: 30%;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+.main_capital{
+    color: rgb(151, 147, 147);
+    font-size: clamp(18px, 4vw, 40px);
+}
+
+.text_area{
+    color: rgb(151, 147, 147);
+    font-size: clamp(14px, 2.5vw, 16px);
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    margin-top: 5%;
+}
+
+input[type="text"], input[type="file"]{
+    background-color: rgb(64, 61, 61);
+    color: rgb(64, 61, 61);
+}
+
+textarea{
+    background-color: rgb(64, 61, 61);
+    width: 40%;
+    height: 20%;
+}
+
+button{
+    background-color: rgb(64, 61, 61);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.system_message{
+    color: red;
+    font-size: clamp(20px, 2.5vw, 16px);
+    margin-top: 20px;
+}
+
+.discussion{
+    color: rgb(178, 164, 164);
+    font-size: clamp(14px, 2.5vw, 16px);
+    text-align: left;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.user{
+    color: rgb(178, 164, 164);
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-weight: 200;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RS-152433 - Архів ефірів</title>
+
+    <link rel="stylesheet" href="CSS/main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="CSS/animation.css" type="text/css" media="all">
+</head>
+
+<body>
+    <div>
+        <p class="capital">Архів ефірів<br>
+            <a href="main_page.html" class="link">Повернутися на головну сторінку</a>
+        </p>
+    </div>
+
+    <p class="capital" id="date" style="margin-top: 50px;"></p>
+    <script>
+        const now = new Date();
+
+        document.getElementById("date").innerHTML = now.toLocaleDateString("uk-UA");
+    </script>
+
+    <div style="display: flex; flex-direction: column;">
+        <div class="box_b_audio" >
+            <p class="main" align="left" style="margin-left: 37px;">20:30-21:00 - Космос. Дослідження космосу</p>
+
+            <audio controls>
+                <source src="audio/Appolon.aac" type="audio/mpeg">
+            </audio>
+
+            <p class="main" align="left" style="margin-left: 7.5px;">22:00-23:30 - Позаземне життя</p>
+
+            <audio controls>
+                <source src="audio/Kepler.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="main" align="left" style="margin-left: 40px;">00:30-01:00 - Незвичайні істоти, що можуть порушувати закони фізики</p>
+
+            <audio controls>
+                <source src="audio/tea.aac" type="audio/mpeg">
+            </audio>
+            
+            <p class="main" align="left">02:00-02:30 - Аномальні явища, що ламають фізику</p>
+
+            <audio controls>
+                <source src="audio/empty_corridor.aac" type="audio/mpeg">
+            </audio>
+
+            <p class="main" align="left">03:00-03:30 - Експерименти та секретні досліди</p>
+
+            <audio controls>
+                <source src="audio/AoT.mp3" type="audio/mpeg">
+            </audio>
+
+            <p class="main" align="left" style="margin-left: 13px;">04:00-04:30 - Дивні історії, які не піддаються поясненням науки</p>
+
+            <audio controls>
+                <source src="audio/strange_lift.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</body>
